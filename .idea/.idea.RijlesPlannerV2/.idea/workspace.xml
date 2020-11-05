@@ -4,11 +4,23 @@
     <projectFile>RijlesPlanner.Presentation/RijlesPlanner.Presentation.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a9fcb5c-3877-4146-a79b-945c2e2a0165" name="Default Changelist" comment="" />
+    <list default="true" id="5a9fcb5c-3877-4146-a79b-945c2e2a0165" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/Controllers/ScheduleController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/Views/Schedule/Schedule.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RijlesPlannerV2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RijlesPlannerV2/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RijlesPlannerV2/.idea/projectSettingsUpdater.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/Controllers/AccountController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/Controllers/AccountController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/Controllers/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/Debug/netcoreapp3.1/RijlesPlanner.Presentation.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/Debug/netcoreapp3.1/RijlesPlanner.Presentation.csprojAssemblyReference.cache" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -33,7 +45,6 @@
         <option value="$PROJECT_DIR$/RijlesPlanner.Data/Connection/ConnectionString.cs" />
         <option value="$PROJECT_DIR$/RijlesPlanner.Interface/DependencyInjection.cs" />
         <option value="$PROJECT_DIR$/RijlesPlanner.Factory/DependencyInjection.cs" />
-        <option value="$PROJECT_DIR$/RijlesPlanner.Presentation/Controllers/HomeController.cs" />
         <option value="$PROJECT_DIR$/RijlesPlanner.Application/Models/Lesson/LessonService.cs" />
         <option value="$PROJECT_DIR$/RijlesPlanner.Interface/Interfaces/Lesson/ILessonContainerRepository.cs" />
         <option value="$PROJECT_DIR$/RijlesPlanner.Interface/Interfaces/Lesson/ILessonContaineDAL.cs" />
@@ -53,8 +64,11 @@
         <option value="$PROJECT_DIR$/RijlesPlanner.Interface/Dto's/LessonDto.cs" />
         <option value="$PROJECT_DIR$/RijlesPlanner.Application/Models/Lesson/Lesson.cs" />
         <option value="$PROJECT_DIR$/RijlesPlanner.Presentation/Views/Shared/_Layout.cshtml" />
-        <option value="$PROJECT_DIR$/RijlesPlanner.Presentation/Views/Home/Index.cshtml" />
         <option value="$PROJECT_DIR$/RijlesPlanner.Presentation/Controllers/AccountController.cs" />
+        <option value="$PROJECT_DIR$/RijlesPlanner.Presentation/Controllers/ScheduleController.cs" />
+        <option value="$PROJECT_DIR$/RijlesPlanner.Presentation/Controllers/HomeController.cs" />
+        <option value="$PROJECT_DIR$/RijlesPlanner.Presentation/Views/Schedule/Schedule.cshtml" />
+        <option value="$PROJECT_DIR$/RijlesPlanner.Presentation/Views/Home/Index.cshtml" />
       </list>
     </option>
   </component>
@@ -121,6 +135,7 @@
       <workItem from="1604514141378" duration="2126000" />
       <workItem from="1604563135350" duration="4530000" />
       <workItem from="1604572900652" duration="386000" />
+      <workItem from="1604577092339" duration="392000" />
     </task>
     <servers />
   </component>
@@ -129,6 +144,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
