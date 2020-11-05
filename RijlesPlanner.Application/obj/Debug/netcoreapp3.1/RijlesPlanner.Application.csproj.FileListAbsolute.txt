@@ -1,0 +1,12 @@
+/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Application/bin/Debug/netcoreapp3.1/RijlesPlanner.Application.deps.json
+/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Application/bin/Debug/netcoreapp3.1/RijlesPlanner.Application.dll
+/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Application/bin/Debug/netcoreapp3.1/RijlesPlanner.Application.pdb
+/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Application/bin/Debug/netcoreapp3.1/RijlesPlanner.Interface.dll
+/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Application/bin/Debug/netcoreapp3.1/RijlesPlanner.Interface.pdb
+/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Application/obj/Debug/netcoreapp3.1/RijlesPlanner.Application.csprojAssemblyReference.cache
+/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Application/obj/Debug/netcoreapp3.1/RijlesPlanner.Application.AssemblyInfoInputs.cache
+/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Application/obj/Debug/netcoreapp3.1/RijlesPlanner.Application.AssemblyInfo.cs
+/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Application/obj/Debug/netcoreapp3.1/RijlesPlanner.Application.csproj.CoreCompileInputs.cache
+/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Application/obj/Debug/netcoreapp3.1/RijlesPlanner.Application.csproj.CopyComplete
+/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Application/obj/Debug/netcoreapp3.1/RijlesPlanner.Application.dll
+/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Application/obj/Debug/netcoreapp3.1/RijlesPlanner.Application.pdb

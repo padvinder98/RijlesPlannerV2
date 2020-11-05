@@ -1,0 +1,43 @@
+@model RijlesPlanner.Presentation.ViewModels.AccountViewModels.LoginViewModel
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<div class="container">
+    <h2>User login</h2>
+    <hr/>
+    <form asp-action="Login" asp-controller="Account" method="post">
+        <div class="row">
+            <div class="col">
+                <div class="form-group">
+                    <label asp-for="EmailAddress"></label>
+                    <input asp-for="EmailAddress" class="form-control"/>
+                    <span asp-validation-for="EmailAddress" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="form-group">
+                    <label asp-for="Password"></label>
+                    <input asp-for="Password" class="form-control">
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="form-group form-check">
+                    <input asp-for="RememberMe" class="form-check-input">
+                    <label asp-for="RememberMe" class="form-check-label"></label>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <input value="Login" class="btn btn-primary" type="submit"/>
+            </div>
+        </div>
+    </form>
+</div>

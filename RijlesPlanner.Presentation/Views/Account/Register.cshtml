@@ -1,0 +1,58 @@
+@model RijlesPlanner.Presentation.ViewModels.AccountViewModels.RegisterViewModel
+
+@{
+    ViewData["Title"] = "Register";
+}
+
+<div class="container">
+    <h2>Register user</h2>
+    <hr/>
+    <form asp-action="Register" asp-controller="Account" method="post">
+        <div class="row">
+            <div class="col">
+                <div class="form-group">
+                    <label asp-for="FirstName"></label>
+                    <input asp-for="FirstName" class="form-control"/>
+                    <span asp-validation-for="FirstName"></span>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-group">
+                    <label asp-for="LastName"></label>
+                    <input asp-for="LastName" class="form-control"/>
+                    <span asp-validation-for="LastName"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="form-group">
+                    <label asp-for="EmailAddress"></label>
+                    <input asp-for="EmailAddress" class="form-control"/>
+                    <span asp-validation-for="EmailAddress"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="form-group">
+                    <label asp-for="Password"></label>
+                    <input asp-for="Password" class="form-control"/>
+                    <span asp-validation-for="Password"></span>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-group">
+                    <label asp-for="ConfirmPassword"></label>
+                    <input asp-for="ConfirmPassword" class="form-control"/>
+                    <span asp-validation-for="ConfirmPassword"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <input value="Register" class="btn btn-primary" type="submit">
+            </div>
+        </div>
+    </form>
+</div>

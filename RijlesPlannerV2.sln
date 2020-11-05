@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RijlesPlanner.Presentation", "RijlesPlanner.Presentation\RijlesPlanner.Presentation.csproj", "{22AB6B0C-BD87-4F7B-8F8C-188BDD49D354}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RijlesPlanner.Application", "RijlesPlanner.Application\RijlesPlanner.Application.csproj", "{4BF4C127-A555-4DD9-B89F-F927A293739B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RijlesPlanner.Data", "RijlesPlanner.Data\RijlesPlanner.Data.csproj", "{1CC22C8E-DB07-4CA8-888F-7B5F164F2634}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RijlesPlanner.Interface", "RijlesPlanner.Interface\RijlesPlanner.Interface.csproj", "{E2B5EC7E-D626-44F8-A98A-170583CDC319}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22AB6B0C-BD87-4F7B-8F8C-188BDD49D354}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22AB6B0C-BD87-4F7B-8F8C-188BDD49D354}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22AB6B0C-BD87-4F7B-8F8C-188BDD49D354}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22AB6B0C-BD87-4F7B-8F8C-188BDD49D354}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BF4C127-A555-4DD9-B89F-F927A293739B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BF4C127-A555-4DD9-B89F-F927A293739B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BF4C127-A555-4DD9-B89F-F927A293739B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BF4C127-A555-4DD9-B89F-F927A293739B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CC22C8E-DB07-4CA8-888F-7B5F164F2634}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CC22C8E-DB07-4CA8-888F-7B5F164F2634}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CC22C8E-DB07-4CA8-888F-7B5F164F2634}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CC22C8E-DB07-4CA8-888F-7B5F164F2634}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2B5EC7E-D626-44F8-A98A-170583CDC319}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2B5EC7E-D626-44F8-A98A-170583CDC319}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2B5EC7E-D626-44F8-A98A-170583CDC319}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2B5EC7E-D626-44F8-A98A-170583CDC319}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

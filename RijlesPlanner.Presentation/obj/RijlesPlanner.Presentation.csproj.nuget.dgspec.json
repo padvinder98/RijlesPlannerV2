@@ -1,0 +1,242 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Presentation/RijlesPlanner.Presentation.csproj": {}
+  },
+  "projects": {
+    "/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Application/RijlesPlanner.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Application/RijlesPlanner.Application.csproj",
+        "projectName": "RijlesPlanner.Application",
+        "projectPath": "/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Application/RijlesPlanner.Application.csproj",
+        "packagesPath": "/Users/ryanhouben/.nuget/packages/",
+        "outputPath": "/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ryanhouben/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Interface/RijlesPlanner.Interface.csproj": {
+                "projectPath": "/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Interface/RijlesPlanner.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Data/RijlesPlanner.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Data/RijlesPlanner.Data.csproj",
+        "projectName": "RijlesPlanner.Data",
+        "projectPath": "/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Data/RijlesPlanner.Data.csproj",
+        "packagesPath": "/Users/ryanhouben/.nuget/packages/",
+        "outputPath": "/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ryanhouben/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Interface/RijlesPlanner.Interface.csproj": {
+                "projectPath": "/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Interface/RijlesPlanner.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.35, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Interface/RijlesPlanner.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Interface/RijlesPlanner.Interface.csproj",
+        "projectName": "RijlesPlanner.Interface",
+        "projectPath": "/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Interface/RijlesPlanner.Interface.csproj",
+        "packagesPath": "/Users/ryanhouben/.nuget/packages/",
+        "outputPath": "/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Interface/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ryanhouben/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Presentation/RijlesPlanner.Presentation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Presentation/RijlesPlanner.Presentation.csproj",
+        "projectName": "RijlesPlanner.Presentation",
+        "projectPath": "/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Presentation/RijlesPlanner.Presentation.csproj",
+        "packagesPath": "/Users/ryanhouben/.nuget/packages/",
+        "outputPath": "/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Presentation/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ryanhouben/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Application/RijlesPlanner.Application.csproj": {
+                "projectPath": "/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Application/RijlesPlanner.Application.csproj"
+              },
+              "/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Data/RijlesPlanner.Data.csproj": {
+                "projectPath": "/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Data/RijlesPlanner.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "fullcalendar": {
+              "target": "Package",
+              "version": "[3.9.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

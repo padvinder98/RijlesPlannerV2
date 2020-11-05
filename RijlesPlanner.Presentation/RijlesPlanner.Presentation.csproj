@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\RijlesPlanner.Application\RijlesPlanner.Application.csproj" />
+      <ProjectReference Include="..\RijlesPlanner.Data\RijlesPlanner.Data.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="fullcalendar" Version="3.9.0" />
+    </ItemGroup>
+
+</Project>
