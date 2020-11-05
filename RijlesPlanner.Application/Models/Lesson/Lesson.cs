@@ -19,5 +19,13 @@ namespace RijlesPlanner.Application.Models.Lesson
             this.StartDate = lessonDto.StartDate;
             this.EndDate = lessonDto.EndDate;
         }
+
+        public Lesson(string title, string description, DateTime startDate, DateTime endDate)
+        {
+            this.Title = title;
+            this.Description = description;
+            this.StartDate = startDate;
+            this.EndDate = endDate;
+        }
     }
 }

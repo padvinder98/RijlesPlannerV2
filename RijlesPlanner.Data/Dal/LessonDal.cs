@@ -36,5 +36,18 @@ namespace RijlesPlanner.Data.Dal
                 return connection.Query<LessonDto>(query, parameters).ToList();
             }
         }
+
+        public int CreateNewLesson(LessonDto lessonDto)
+        {
+            using (SqlConnection connection = new SqlConnection(ConnectionString.GetConnectionString()))
+            {
+                var parameters = new { Title = lessonDto.Title, Description = lessonDto.Description, StartDate = lessonDto.StartDate, EndDate = lessonDto.EndDate };
+                var query = "INSERT INTO [dbo].[Lessons](Title, Description, StartDate, EndDate) VALUES (@Title, @Description, @StartDate, @EndDate)";
+
+                connection.Query(query, parameters);
+
+                return 1;
+            }
+        }
     }
 }

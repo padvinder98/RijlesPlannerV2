@@ -1,4 +1,5 @@
 using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace RijlesPlanner.Interface
 {
@@ -9,5 +10,22 @@ namespace RijlesPlanner.Interface
         public string Description { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
+
+        public LessonDto(Guid id, string title, string description, DateTime startDate, DateTime endDate)
+        {
+            Id = id;
+            Title = title;
+            Description = description;
+            StartDate = startDate;
+            EndDate = endDate;  
+        }
+        
+        public LessonDto(string title, string description, DateTime startDate, DateTime endDate)
+        {
+            Title = title;
+            Description = description;
+            StartDate = startDate;
+            EndDate = endDate;
+        }
     }
 }
