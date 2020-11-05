@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using RijlesPlanner.Application.Interfaces;
+using RijlesPlanner.Interface;
 using RijlesPlanner.Interface.Interfaces.Lesson;
 
 namespace RijlesPlanner.Application.Models.Lesson
@@ -26,6 +27,11 @@ namespace RijlesPlanner.Application.Models.Lesson
             }
 
             return lessons;
+        }
+
+        public void CreateNewLesson(Lesson lesson)
+        {
+            _lessonContainerDal.CreateNewLesson(new LessonDto(lesson.Title, lesson.Description, lesson.StartDate, lesson.EndDate));
         }
     }
 }

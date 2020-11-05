@@ -94,6 +94,10 @@
             <e p="RegisterViewModel.cs" t="Include" />
           </e>
           <e p="ErrorViewModel.cs" t="Include" />
+          <e p="LessonViewModel.cs" t="Include" />
+          <e p="ScheduleViewModels" t="Include">
+            <e p="AddLessonViewModel.cs" t="Include" />
+          </e>
         </e>
         <e p="Views" t="Include">
           <e p="_ViewImports.cshtml" t="Include" />
@@ -107,6 +111,7 @@
             <e p="Privacy.cshtml" t="Include" />
           </e>
           <e p="Schedule" t="Include">
+            <e p="AddLesson.cshtml" t="Include" />
             <e p="Schedule.cshtml" t="Include" />
           </e>
           <e p="Shared" t="Include">

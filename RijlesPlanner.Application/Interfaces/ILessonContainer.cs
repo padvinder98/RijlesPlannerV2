@@ -6,5 +6,6 @@ namespace RijlesPlanner.Application.Interfaces
     public interface ILessonContainer
     {
         public List<Lesson> GetAllLessons();
+        public void CreateNewLesson(Lesson lesson);
     }
 }

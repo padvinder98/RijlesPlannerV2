@@ -50,3 +50,4 @@
 /Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Presentation/bin/Debug/netcoreapp3.1/RijlesPlanner.Data.dll
 /Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Presentation/bin/Debug/netcoreapp3.1/RijlesPlanner.Data.pdb
 /Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Presentation/obj/Debug/netcoreapp3.1/Razor/Views/Schedule/Schedule.cshtml.g.cs
+/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Presentation/obj/Debug/netcoreapp3.1/Razor/Views/Schedule/AddLesson.cshtml.g.cs
