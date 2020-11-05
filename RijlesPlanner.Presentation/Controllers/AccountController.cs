@@ -6,18 +6,10 @@ namespace RijlesPlanner.Presentation.Controllers
 {
     public class AccountController : Controller
     {
-        private readonly ILessonContainer _lessonContainer;
-        
-        public AccountController(ILessonContainer lessonContainer)
-        {
-            _lessonContainer = lessonContainer;
-        }
-        
         // GET: Account/Register
         [HttpGet]
         public IActionResult Register()
         {
-            _lessonContainer.GetAllLessons();
             return View();
         }
         

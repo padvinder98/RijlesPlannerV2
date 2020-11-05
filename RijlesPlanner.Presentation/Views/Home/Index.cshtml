@@ -3,20 +3,5 @@
 }
 
 <div class="container">
-    <div id="calendar"></div>
+    <h2>Home</h2>
 </div>
-
-@section Scripts{
-    <script>
-          document.addEventListener('DOMContentLoaded', function() {
-            var calendarEl = document.getElementById('calendar');
-            var calendar = new FullCalendar.Calendar(calendarEl, {
-                locale: 'nl',
-                initialView: 'timeGridWeek',
-                allDaySlot: false,
-                selectable: true
-            });
-            calendar.render();
-          });
-    </script>
-}
