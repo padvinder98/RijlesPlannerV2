@@ -29,6 +29,9 @@
       </e>
       <e p="RijlesPlanner.Data" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Common" t="Include">
+          <e p="CommonDal.cs" t="Include" />
+        </e>
         <e p="Connection" t="Include">
           <e p="ConnectionString.cs" t="Include" />
         </e>
@@ -51,6 +54,9 @@
           <e p="UserDto.cs" t="Include" />
         </e>
         <e p="Interfaces" t="Include">
+          <e p="Common" t="Include">
+            <e p="ICommonDal.cs" t="Include" />
+          </e>
           <e p="Lesson" t="Include">
             <e p="ILessonContaineDAL.cs" t="Include" />
             <e p="ILessonDal.cs" t="Include" />
