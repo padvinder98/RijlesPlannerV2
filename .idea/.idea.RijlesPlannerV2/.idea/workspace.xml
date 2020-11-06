@@ -23,37 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a9fcb5c-3877-4146-a79b-945c2e2a0165" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/RijlesPlanner.Data/Common/CommonDal.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RijlesPlanner.Interface/Interfaces/Common/ICommonDal.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RijlesPlannerV2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RijlesPlannerV2/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RijlesPlannerV2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RijlesPlannerV2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Application/obj/Debug/netcoreapp3.1/RijlesPlanner.Application.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Application/obj/Debug/netcoreapp3.1/RijlesPlanner.Application.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Application/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RijlesPlanner.Data/Connection/ConnectionString.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Data/Connection/ConnectionString.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Data/obj/Debug/netcoreapp3.1/RijlesPlanner.Data.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Data/obj/Debug/netcoreapp3.1/RijlesPlanner.Data.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Data/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Data/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Interface/obj/Debug/netcoreapp3.1/RijlesPlanner.Interface.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Interface/obj/Debug/netcoreapp3.1/RijlesPlanner.Interface.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Interface/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Interface/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/Controllers/ScheduleController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/Controllers/ScheduleController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/RijlesPlanner.Presentation.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/RijlesPlanner.Presentation.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/ViewModels/LessonViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/ViewModels/LessonViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/Views/Schedule/Schedule.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/Views/Schedule/Schedule.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/bin/Debug/netcoreapp3.1/RijlesPlanner.Presentation.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/bin/Debug/netcoreapp3.1/RijlesPlanner.Presentation.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/bin/Debug/netcoreapp3.1/RijlesPlanner.Presentation.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/bin/Debug/netcoreapp3.1/RijlesPlanner.Presentation.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/bin/Debug/netcoreapp3.1/RijlesPlanner.Presentation.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/bin/Debug/netcoreapp3.1/RijlesPlanner.Presentation.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/bin/Debug/netcoreapp3.1/RijlesPlanner.Presentation.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/bin/Debug/netcoreapp3.1/RijlesPlanner.Presentation.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/bin/Debug/netcoreapp3.1/RijlesPlanner.Presentation.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/bin/Debug/netcoreapp3.1/RijlesPlanner.Presentation.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/Debug/netcoreapp3.1/Razor/Views/Schedule/Schedule.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/Debug/netcoreapp3.1/Razor/Views/Schedule/Schedule.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/Debug/netcoreapp3.1/RijlesPlanner.Presentation.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/Debug/netcoreapp3.1/RijlesPlanner.Presentation.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/Debug/netcoreapp3.1/RijlesPlanner.Presentation.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/Debug/netcoreapp3.1/RijlesPlanner.Presentation.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/Debug/netcoreapp3.1/RijlesPlanner.Presentation.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/Debug/netcoreapp3.1/RijlesPlanner.Presentation.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/Debug/netcoreapp3.1/RijlesPlanner.Presentation.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/Debug/netcoreapp3.1/RijlesPlanner.Presentation.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/Debug/netcoreapp3.1/RijlesPlanner.Presentation.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/Debug/netcoreapp3.1/RijlesPlanner.Presentation.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/Debug/netcoreapp3.1/RijlesPlanner.Presentation.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/Debug/netcoreapp3.1/RijlesPlanner.Presentation.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/Debug/netcoreapp3.1/RijlesPlanner.Presentation.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/Debug/netcoreapp3.1/RijlesPlanner.Presentation.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/Debug/netcoreapp3.1/RijlesPlanner.Presentation.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/Debug/netcoreapp3.1/RijlesPlanner.Presentation.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/RijlesPlanner.Presentation.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/RijlesPlanner.Presentation.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,8 +96,10 @@
         <option value="$PROJECT_DIR$/RijlesPlanner.Interface/Dto's/LessonDto.cs" />
         <option value="$PROJECT_DIR$/RijlesPlanner.Presentation/Scripts/calendar.js" />
         <option value="$PROJECT_DIR$/RijlesPlanner.Presentation/ViewModels/LessonViewModel.cs" />
-        <option value="$PROJECT_DIR$/RijlesPlanner.Presentation/Controllers/ScheduleController.cs" />
         <option value="$PROJECT_DIR$/RijlesPlanner.Presentation/Views/Schedule/Schedule.cshtml" />
+        <option value="$PROJECT_DIR$/RijlesPlanner.Interface/Interfaces/Common/ICommonDal.cs" />
+        <option value="$PROJECT_DIR$/RijlesPlanner.Data/Common/CommonDal.cs" />
+        <option value="$PROJECT_DIR$/RijlesPlanner.Presentation/Controllers/ScheduleController.cs" />
       </list>
     </option>
   </component>
@@ -200,6 +177,7 @@
       <workItem from="1604579158234" duration="8304000" />
       <workItem from="1604592343199" duration="7816000" />
       <workItem from="1604649027507" duration="424000" />
+      <workItem from="1604654347570" duration="501000" />
     </task>
     <servers />
   </component>
@@ -352,24 +330,5 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="559" y="249" width="672" height="678" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1604581857129" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/RijlesPlanner.Data/Dal/LessonDal.cs</url>
-          <line>40</line>
-          <properties documentPath="$PROJECT_DIR$/RijlesPlanner.Data/Dal/LessonDal.cs" initialLine="40">
-            <startOffsets>
-              <option value="1278" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1279" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

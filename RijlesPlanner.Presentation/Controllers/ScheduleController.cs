@@ -56,6 +56,7 @@ namespace RijlesPlanner.Presentation.Controllers
                 _lessonContainer.CreateNewLesson(lesson);
                 
                 ModelState.Clear();
+                
                 return View();
             }
             
