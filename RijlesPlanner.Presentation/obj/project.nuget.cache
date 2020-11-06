@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Qz+srXaxKfwg3GZ9mQC71uXLkMOH4uXrBkyHhoAA/tYAJNDYYtR1dxH7JKR7XPjqsji0YeRrUuh4NeWCSVDsJQ==",
+  "dgSpecHash": "SSmt+f6uXCkZqe7SF/t1WNFuOm9IJ9851KGDT78iZdYclr5sfalig8w5n5t7P2bR44DlyDuijotXsN1AdniRKQ==",
   "success": true,
   "projectFilePath": "/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Presentation/RijlesPlanner.Presentation.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "/Users/ryanhouben/.nuget/packages/microsoft.netcore.platforms/3.1.0/microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "/Users/ryanhouben/.nuget/packages/microsoft.win32.registry/4.7.0/microsoft.win32.registry.4.7.0.nupkg.sha512",
     "/Users/ryanhouben/.nuget/packages/moment.js/2.9.0/moment.js.2.9.0.nupkg.sha512",
+    "/Users/ryanhouben/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
     "/Users/ryanhouben/.nuget/packages/runtime.native.system.data.sqlclient.sni/4.7.0/runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
     "/Users/ryanhouben/.nuget/packages/runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "/Users/ryanhouben/.nuget/packages/runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",

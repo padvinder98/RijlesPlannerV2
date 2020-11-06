@@ -33,6 +33,10 @@
   "frameworks": {
     "netcoreapp3.1": {
       "dependencies": {
+        "Newtonsoft.Json": {
+          "target": "Package",
+          "version": "[12.0.3, )"
+        },
         "fullcalendar": {
           "target": "Package",
           "version": "[3.9.0, )"
