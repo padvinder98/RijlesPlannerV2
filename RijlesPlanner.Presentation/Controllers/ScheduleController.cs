@@ -1,6 +1,8 @@
+using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using RijlesPlanner.Application.Interfaces;
 using RijlesPlanner.Application.Models.Lesson;
+using RijlesPlanner.Presentation.ViewModels;
 using RijlesPlanner.Presentation.ViewModels.ScheduleViewModels;
 
 namespace RijlesPlanner.Presentation.Controllers
@@ -18,11 +20,23 @@ namespace RijlesPlanner.Presentation.Controllers
         [HttpGet]
         public IActionResult Schedule()
         {
-            var result = _lessonContainer.GetAllLessons();
-            
             return View();
         }
         
+        public JsonResult GetAllLessons()
+        {
+            var result = _lessonContainer.GetAllLessons();
+
+            var data = new List<LessonViewModel>();
+
+            foreach (var item in result)
+            {
+                data.Add(new LessonViewModel{ Id = item.Id, Title = item.Title, Description = item.Description, Start = item.StartDate, End = item.EndDate});
+            }
+
+            return Json(data);
+        }
+
         // GET: Schedule/AddLesson
         [HttpGet]
         public IActionResult AddLesson()
