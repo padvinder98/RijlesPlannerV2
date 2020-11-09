@@ -58,6 +58,92 @@
         }
       }
     },
+    "/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Data.EntityFramework/RijlesPlanner.Data.EntityFramework.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Data.EntityFramework/RijlesPlanner.Data.EntityFramework.csproj",
+        "projectName": "RijlesPlanner.Data.EntityFramework",
+        "projectPath": "/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Data.EntityFramework/RijlesPlanner.Data.EntityFramework.csproj",
+        "packagesPath": "/Users/ryanhouben/.nuget/packages/",
+        "outputPath": "/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Data.EntityFramework/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ryanhouben/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Interface/RijlesPlanner.Interface.csproj": {
+                "projectPath": "/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Interface/RijlesPlanner.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0-rc.2.20475.17, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0-rc.2.20475.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.0-rc.2.20475.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0-rc.2.20475.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0-rc.2.20475.6, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[5.0.0-rc.2.20475.5, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0-rc.2.20475.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Data/RijlesPlanner.Data.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -196,6 +282,9 @@
               "/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Application/RijlesPlanner.Application.csproj": {
                 "projectPath": "/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Application/RijlesPlanner.Application.csproj"
               },
+              "/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Data.EntityFramework/RijlesPlanner.Data.EntityFramework.csproj": {
+                "projectPath": "/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Data.EntityFramework/RijlesPlanner.Data.EntityFramework.csproj"
+              },
               "/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Data/RijlesPlanner.Data.csproj": {
                 "projectPath": "/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Data/RijlesPlanner.Data.csproj"
               }
@@ -211,6 +300,26 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[5.0.0-rc.2.20475.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0-rc.2.20475.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0-rc.2.20475.6, )"
+            },
+            "Microsoft.Extensions.Configuration.UserSecrets": {
+              "target": "Package",
+              "version": "[5.0.0-rc.2.20475.5, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.3, )"

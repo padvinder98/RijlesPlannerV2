@@ -57,6 +57,9 @@
           <e p="Common" t="Include">
             <e p="ICommonDal.cs" t="Include" />
           </e>
+          <e p="DatabaseContext" t="Include">
+            <e p="IApplicationDatabaseContext.cs" t="Include" />
+          </e>
           <e p="Lesson" t="Include">
             <e p="ILessonContaineDAL.cs" t="Include" />
             <e p="ILessonDal.cs" t="Include" />
