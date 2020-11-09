@@ -9,5 +9,7 @@ namespace RijlesPlanner.Interface.Interfaces.Lesson
 
         public List<LessonDto> GetLessonsByUserId(Guid userId);
         public int CreateNewLesson(LessonDto lessonDto);
+        public LessonDto FindLessonById(string id);
+        public void DeleteLesson(string id);
     }
 }

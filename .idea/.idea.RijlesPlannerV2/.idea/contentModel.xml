@@ -117,7 +117,9 @@
             <e p="Privacy.cshtml" t="Include" />
           </e>
           <e p="Schedule" t="Include">
-            <e p="AddLesson.cshtml" t="Include" />
+            <e p="Partial" t="Include">
+              <e p="AddLessonPartial.cshtml" t="Include" />
+            </e>
             <e p="Schedule.cshtml" t="Include" />
           </e>
           <e p="Shared" t="Include">

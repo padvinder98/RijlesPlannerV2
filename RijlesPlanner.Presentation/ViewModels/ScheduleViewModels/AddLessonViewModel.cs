@@ -6,14 +6,16 @@ namespace RijlesPlanner.Presentation.ViewModels.ScheduleViewModels
     public class AddLessonViewModel
     {
         [Required]
+        [Display(Name = "Titel")]
         public string Title { get; set; }
         [Required]
+        [Display(Name = "Omschrijving")]
         public string Description { get; set; }
         [Required]
-        [DataType(DataType.DateTime)]
+        [Display(Name = "Start datum en tijd")]
         public DateTime StartDate { get; set; }
         [Required]
-        [DataType(DataType.DateTime)]
+        [Display(Name = "Eind datum en tijd")]
         public DateTime EndDate { get; set; }
     }
 }

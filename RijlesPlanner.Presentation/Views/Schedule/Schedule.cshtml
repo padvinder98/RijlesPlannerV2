@@ -1,103 +1,53 @@
 @using System.Collections.Specialized
 <div class="container">
+    <section>
+        @{
+            Html.RenderPartial("Partial/AddLessonPartial");
+        }
+    </section>
+    <br/>
     <div id="calendar"></div>
 </div>
 
 <div id="myModal" class="modal" tabindex="-1" role="dialog">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title"><span id="eventTitle"></span></h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <p id="pDetails"></p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Sluiten</button>
-      </div>
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">
+                    <span id="eventTitle"></span>
+                </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p hidden id="eventId"></p>
+                <p id="pDetails"></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" id="delete-lesson" data-dismiss="modal">Verwijder</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Sluiten</button>
+            </div>
+        </div>
     </div>
-  </div>
 </div>
 
 @section Scripts
 {
     <script>
-            $(document).ready(function () {
-                var events = [];
-                $.ajax({
-                    type: "GET",
-                    url: "/Schedule/GetAllLessons",
-                    dataType: 'json',
-                    success: function (data) {
-                        $.each(data, function (Key, Value) {
-                              events.push({
-                                title: Value.title,
-                                description: Value.description,
-                                start: Value.start,
-                                end: Value.end,
-                            });
-                        })
-                        GenerateCalender(events);
-                    },
-                    error: function (error) {
-                        alert('failed');
-                    }
-                })
-    
-                function GenerateCalender(events) {
-                    var calendarEl = document.getElementById('calendar');
-                    var calendar = new FullCalendar.Calendar(calendarEl, {
-                        locale: 'nl',
-                        customButtons: {
-                              addEventButton: {
-                                text: 'add event...',
-                                click: function() {
-                                  var dateStr = prompt('Enter a date in YYYY-MM-DD format');
-                                  var date = moment(dateStr);
-                        
-                                  if (date.isValid()) {
-                                    $('#calendar').fullCalendar('renderEvent', {
-                                      title: 'dynamic event',
-                                      start: date,
-                                      allDay: true
-                                    });
-                                    alert('Great. Now, update your database...');
-                                  } else {
-                                    alert('Invalid date.');
-                                  }
-                                }
-                              }
-                            },
-                        headerToolbar: {
-                          left: 'prevYear,prev,next,nextYear addEventButton',
-                          center: 'title',
-                          right: 'today dayGridMonth,timeGridWeek,timeGridDay'
-                        },
-                        editable: true,
-                        selectable: true,
-                        dayMaxEvents: true, // allow "more" link when too many events
-                        allDaySlot: false,
-                        events: events,
-                        
-                          eventClick: function(info) {
-                            $('#myModal #eventTitle').text(info.event.title);
-                            var $description = $('<div/>');
-                            $description.append($('<p/>').html('<b>Start tijd: </b>' + info.event.start));
-                            if (info.event.end != null) {
-                                $description.append($('<p/>').html('<b>Eind tijd: </b>' + info.event.end));
-                            }
-                            $description.append($('<p/>').html('<b>Opmerking:</b>' + info.event.extendedProps.description));
-                            $('#myModal #pDetails').empty().html($description);
-    
-                            $('#myModal').modal();
-                          },
-                        
-                    })
-                            calendar.render();
-                }
-            })
+        $(document).ready(function () {
+            GetAllLessons();
+         });
+        
+        $( "#add-lesson-button" ).click(function() {
+            CreateLesson();
+        });
+        
+        $( "#delete-lesson" ).click(function() {
+              var r = confirm("Weet je zeker dat je deze les wilt verwijderen?");
+              if (r == true) {
+                txt = DeleteLesson();
+              }
+        });   
     </script>
 }

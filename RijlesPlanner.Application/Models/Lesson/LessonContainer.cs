@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using RijlesPlanner.Application.Interfaces;
 using RijlesPlanner.Interface;
 using RijlesPlanner.Interface.Interfaces.Lesson;
@@ -18,20 +19,25 @@ namespace RijlesPlanner.Application.Models.Lesson
         public List<Lesson> GetAllLessons()
         {
             var result = _lessonContainerDal.GetAllLessons();
-            
-            var lessons = new List<Lesson>();
 
-            foreach (var lessonDto in result)
-            {
-                lessons.Add( new Lesson(lessonDto));
-            }
-
-            return lessons;
+            return result.Select(lessonDto => new Lesson(lessonDto)).ToList();
         }
 
         public void CreateNewLesson(Lesson lesson)
         {
             _lessonContainerDal.CreateNewLesson(new LessonDto(lesson.Title, lesson.Description, lesson.StartDate, lesson.EndDate));
+        }
+
+        public Lesson FindLessonById(string id)
+        {
+            var lessonDto = _lessonContainerDal.FindLessonById(id);
+
+            return lessonDto == null ? null : new Lesson(lessonDto);
+        }
+
+        public void DeleteLesson(string id)
+        {
+            _lessonContainerDal.DeleteLesson(id);
         }
     }
 }
