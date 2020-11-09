@@ -57,6 +57,9 @@
           <e p="Common" t="Include">
             <e p="ICommonDal.cs" t="Include" />
           </e>
+          <e p="DatabaseContext" t="Include">
+            <e p="IApplicationDatabaseContext.cs" t="Include" />
+          </e>
           <e p="Lesson" t="Include">
             <e p="ILessonContaineDAL.cs" t="Include" />
             <e p="ILessonDal.cs" t="Include" />
@@ -117,7 +120,9 @@
             <e p="Privacy.cshtml" t="Include" />
           </e>
           <e p="Schedule" t="Include">
-            <e p="AddLesson.cshtml" t="Include" />
+            <e p="Partial" t="Include">
+              <e p="AddLessonPartial.cshtml" t="Include" />
+            </e>
             <e p="Schedule.cshtml" t="Include" />
           </e>
           <e p="Shared" t="Include">

@@ -23,12 +23,69 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a9fcb5c-3877-4146-a79b-945c2e2a0165" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/RijlesPlanner.Data/Common/CommonDal.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RijlesPlanner.Interface/Interfaces/Common/ICommonDal.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RijlesPlanner.Data.EntityFramework/DatabaseContext/ApplicationDatabaseContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RijlesPlanner.Data.EntityFramework/DatabaseContext/DatabaseContextFactory/ApplicatiomDatabasebContextFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RijlesPlanner.Data.EntityFramework/DatabaseContext/DatabaseContextFactory/DesignTimeDbContextFactoryBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RijlesPlanner.Data.EntityFramework/Entities/UserEntity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RijlesPlanner.Interface/Interfaces/DatabaseContext/IApplicationDatabaseContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RijlesPlannerV2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RijlesPlannerV2/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RijlesPlannerV2/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RijlesPlannerV2/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RijlesPlannerV2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RijlesPlannerV2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Application/bin/Debug/netcoreapp3.1/RijlesPlanner.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Application/bin/Debug/netcoreapp3.1/RijlesPlanner.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Application/bin/Debug/netcoreapp3.1/RijlesPlanner.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Application/bin/Debug/netcoreapp3.1/RijlesPlanner.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Application/bin/Debug/netcoreapp3.1/RijlesPlanner.Interface.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Application/bin/Debug/netcoreapp3.1/RijlesPlanner.Interface.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Application/bin/Debug/netcoreapp3.1/RijlesPlanner.Interface.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Application/bin/Debug/netcoreapp3.1/RijlesPlanner.Interface.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Application/obj/Debug/netcoreapp3.1/RijlesPlanner.Application.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Application/obj/Debug/netcoreapp3.1/RijlesPlanner.Application.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Application/obj/Debug/netcoreapp3.1/RijlesPlanner.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Application/obj/Debug/netcoreapp3.1/RijlesPlanner.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Application/obj/Debug/netcoreapp3.1/RijlesPlanner.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Application/obj/Debug/netcoreapp3.1/RijlesPlanner.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Application/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RijlesPlanner.Data/Connection/ConnectionString.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Data/Connection/ConnectionString.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/Controllers/ScheduleController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/Controllers/ScheduleController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Data/bin/Debug/netcoreapp3.1/RijlesPlanner.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Data/bin/Debug/netcoreapp3.1/RijlesPlanner.Data.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Data/bin/Debug/netcoreapp3.1/RijlesPlanner.Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Data/bin/Debug/netcoreapp3.1/RijlesPlanner.Data.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Data/bin/Debug/netcoreapp3.1/RijlesPlanner.Interface.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Data/bin/Debug/netcoreapp3.1/RijlesPlanner.Interface.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Data/bin/Debug/netcoreapp3.1/RijlesPlanner.Interface.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Data/bin/Debug/netcoreapp3.1/RijlesPlanner.Interface.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Data/obj/Debug/netcoreapp3.1/RijlesPlanner.Data.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Data/obj/Debug/netcoreapp3.1/RijlesPlanner.Data.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Data/obj/Debug/netcoreapp3.1/RijlesPlanner.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Data/obj/Debug/netcoreapp3.1/RijlesPlanner.Data.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Data/obj/Debug/netcoreapp3.1/RijlesPlanner.Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Data/obj/Debug/netcoreapp3.1/RijlesPlanner.Data.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Data/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Data/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Interface/bin/Debug/netcoreapp3.1/RijlesPlanner.Interface.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Interface/bin/Debug/netcoreapp3.1/RijlesPlanner.Interface.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Interface/bin/Debug/netcoreapp3.1/RijlesPlanner.Interface.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Interface/bin/Debug/netcoreapp3.1/RijlesPlanner.Interface.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Interface/obj/Debug/netcoreapp3.1/RijlesPlanner.Interface.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Interface/obj/Debug/netcoreapp3.1/RijlesPlanner.Interface.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Interface/obj/Debug/netcoreapp3.1/RijlesPlanner.Interface.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Interface/obj/Debug/netcoreapp3.1/RijlesPlanner.Interface.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Interface/obj/Debug/netcoreapp3.1/RijlesPlanner.Interface.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Interface/obj/Debug/netcoreapp3.1/RijlesPlanner.Interface.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Interface/obj/Debug/netcoreapp3.1/RijlesPlanner.Interface.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Interface/obj/Debug/netcoreapp3.1/RijlesPlanner.Interface.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Interface/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Interface/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/RijlesPlanner.Presentation.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/RijlesPlanner.Presentation.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/bin/Debug/netcoreapp3.1/RijlesPlanner.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/bin/Debug/netcoreapp3.1/RijlesPlanner.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/bin/Debug/netcoreapp3.1/RijlesPlanner.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/bin/Debug/netcoreapp3.1/RijlesPlanner.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/bin/Debug/netcoreapp3.1/RijlesPlanner.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/bin/Debug/netcoreapp3.1/RijlesPlanner.Data.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/bin/Debug/netcoreapp3.1/RijlesPlanner.Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/bin/Debug/netcoreapp3.1/RijlesPlanner.Data.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/bin/Debug/netcoreapp3.1/RijlesPlanner.Interface.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/bin/Debug/netcoreapp3.1/RijlesPlanner.Interface.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/bin/Debug/netcoreapp3.1/RijlesPlanner.Interface.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/bin/Debug/netcoreapp3.1/RijlesPlanner.Interface.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/bin/Debug/netcoreapp3.1/RijlesPlanner.Presentation.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/bin/Debug/netcoreapp3.1/RijlesPlanner.Presentation.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/bin/Debug/netcoreapp3.1/RijlesPlanner.Presentation.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/bin/Debug/netcoreapp3.1/RijlesPlanner.Presentation.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/bin/Debug/netcoreapp3.1/RijlesPlanner.Presentation.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/bin/Debug/netcoreapp3.1/RijlesPlanner.Presentation.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/bin/Debug/netcoreapp3.1/RijlesPlanner.Presentation.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/bin/Debug/netcoreapp3.1/RijlesPlanner.Presentation.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/bin/Debug/netcoreapp3.1/RijlesPlanner.Presentation.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/bin/Debug/netcoreapp3.1/RijlesPlanner.Presentation.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/Debug/netcoreapp3.1/RijlesPlanner.Presentation.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/Debug/netcoreapp3.1/RijlesPlanner.Presentation.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/Debug/netcoreapp3.1/RijlesPlanner.Presentation.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/Debug/netcoreapp3.1/RijlesPlanner.Presentation.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/Debug/netcoreapp3.1/RijlesPlanner.Presentation.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/Debug/netcoreapp3.1/RijlesPlanner.Presentation.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/Debug/netcoreapp3.1/RijlesPlanner.Presentation.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/Debug/netcoreapp3.1/RijlesPlanner.Presentation.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/Debug/netcoreapp3.1/RijlesPlanner.Presentation.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/Debug/netcoreapp3.1/RijlesPlanner.Presentation.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/Debug/netcoreapp3.1/RijlesPlanner.Presentation.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/Debug/netcoreapp3.1/RijlesPlanner.Presentation.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/Debug/netcoreapp3.1/RijlesPlanner.Presentation.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/Debug/netcoreapp3.1/RijlesPlanner.Presentation.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/Debug/netcoreapp3.1/RijlesPlanner.Presentation.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/Debug/netcoreapp3.1/RijlesPlanner.Presentation.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/Debug/netcoreapp3.1/RijlesPlanner.Presentation.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/Debug/netcoreapp3.1/RijlesPlanner.Presentation.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/Debug/netcoreapp3.1/staticwebassets/RijlesPlanner.Presentation.StaticWebAssets.Manifest.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/Debug/netcoreapp3.1/staticwebassets/RijlesPlanner.Presentation.StaticWebAssets.Manifest.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/Debug/netcoreapp3.1/staticwebassets/RijlesPlanner.Presentation.StaticWebAssets.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/Debug/netcoreapp3.1/staticwebassets/RijlesPlanner.Presentation.StaticWebAssets.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/RijlesPlanner.Presentation.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/RijlesPlanner.Presentation.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/RijlesPlanner.Presentation.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/RijlesPlanner.Presentation.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/RijlesPlanner.Presentation.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/RijlesPlanner.Presentation.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/RijlesPlanner.Presentation/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,25 +96,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/607C3C60-F4F6-4AA4-B1BF-9A8EBE39103C/86/HttpProtocol.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/593B42DD-0B05-4EF3-A52E-4B51D992D63D/F3/ActionMethodExecutor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/593B42DD-0B05-4EF3-A52E-4B51D992D63D/11C/ResourceInvoker.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/593B42DD-0B05-4EF3-A52E-4B51D992D63D/FE/ControllerActionInvoker.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/654AC2D5-AEE9-4BB7-9DE1-E6F0533F5376/22A/AsyncMethodBuilder.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/F2D1FC91-A333-45D6-B967-ACDEC2719FDF/13/EndpointMiddleware.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/336D929F-C30B-4A00-A0AD-646B4A282082/C/Controller.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/446F0B27-F438-492E-A9B0-D11E08CE42DA/3/AuthorizationMiddleware.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/AEEA0A49-4DB9-4564-AF1C-B19E66A3E4B3/4/DeveloperExceptionPageMiddleware.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/RijlesPlanner.Application/Class1.cs" />
-        <option value="$PROJECT_DIR$/RijlesPlanner.Data/Class1.cs" />
-        <option value="$PROJECT_DIR$/RijlesPlanner.IData/Class1.cs" />
-        <option value="$PROJECT_DIR$/RijlesPlanner.Factory/Class1.cs" />
-        <option value="$PROJECT_DIR$/RijlesPlanner.Presentation/ViewModels/ErrorViewModel.cs" />
-        <option value="$PROJECT_DIR$/RijlesPlanner.Presentation/Views/_ViewImports.cshtml" />
-        <option value="$PROJECT_DIR$/RijlesPlanner.Presentation/Views/Account/Register.cshtml" />
-        <option value="$PROJECT_DIR$/RijlesPlanner.Presentation/Views/Account/Login.cshtml" />
-        <option value="$PROJECT_DIR$/RijlesPlanner.Application/Models/UserContainer.cs" />
         <option value="$PROJECT_DIR$/RijlesPlanner.Interface/Interfaces/UserContainer.cs" />
         <option value="$PROJECT_DIR$/RijlesPlanner.Interface/RijlesPlanner.Interface.csproj" />
         <option value="$PROJECT_DIR$/RijlesPlanner.Interface/Dto's/UserDto.cs" />
@@ -79,27 +130,36 @@
         <option value="$PROJECT_DIR$/RijlesPlanner.Presentation/ViewModels/AccountViewModels/LoginViewModel.cs" />
         <option value="$PROJECT_DIR$/RijlesPlanner.Application/Models/User/User.cs" />
         <option value="$PROJECT_DIR$/RijlesPlanner.Application/Models/User/UserContainer.cs" />
-        <option value="$PROJECT_DIR$/RijlesPlanner.Presentation/Startup.cs" />
         <option value="$PROJECT_DIR$/RijlesPlanner.Presentation/Views/Shared/_Layout.cshtml" />
         <option value="$PROJECT_DIR$/RijlesPlanner.Presentation/Controllers/AccountController.cs" />
         <option value="$PROJECT_DIR$/RijlesPlanner.Presentation/Controllers/HomeController.cs" />
         <option value="$PROJECT_DIR$/RijlesPlanner.Presentation/Views/Home/Index.cshtml" />
         <option value="$PROJECT_DIR$/RijlesPlanner.Data/Connection/ConnectionString.cs" />
-        <option value="$PROJECT_DIR$/RijlesPlanner.Presentation/ViewModels/ScheduleViewModels/AddLessonViewModel.cs" />
         <option value="$PROJECT_DIR$/RijlesPlanner.Presentation/Views/Shared/PartialViews/AddLessonPartial.cshtml" />
         <option value="$PROJECT_DIR$/RijlesPlanner.Presentation/Views/Schedule/AddLesson.cshtml" />
         <option value="$PROJECT_DIR$/RijlesPlanner.Application/Models/Lesson/Lesson.cs" />
-        <option value="$PROJECT_DIR$/RijlesPlanner.Application/Interfaces/ILessonContainer.cs" />
-        <option value="$PROJECT_DIR$/RijlesPlanner.Interface/Interfaces/Lesson/ILessonContaineDal.cs" />
-        <option value="$PROJECT_DIR$/RijlesPlanner.Application/Models/Lesson/LessonContainer.cs" />
-        <option value="$PROJECT_DIR$/RijlesPlanner.Data/Dal/LessonDal.cs" />
         <option value="$PROJECT_DIR$/RijlesPlanner.Interface/Dto's/LessonDto.cs" />
         <option value="$PROJECT_DIR$/RijlesPlanner.Presentation/Scripts/calendar.js" />
         <option value="$PROJECT_DIR$/RijlesPlanner.Presentation/ViewModels/LessonViewModel.cs" />
-        <option value="$PROJECT_DIR$/RijlesPlanner.Presentation/Views/Schedule/Schedule.cshtml" />
         <option value="$PROJECT_DIR$/RijlesPlanner.Interface/Interfaces/Common/ICommonDal.cs" />
         <option value="$PROJECT_DIR$/RijlesPlanner.Data/Common/CommonDal.cs" />
+        <option value="$PROJECT_DIR$/RijlesPlanner.Application/Interfaces/ILessonContainer.cs" />
+        <option value="$PROJECT_DIR$/RijlesPlanner.Interface/Interfaces/Lesson/ILessonContaineDal.cs" />
+        <option value="$PROJECT_DIR$/RijlesPlanner.Data/Dal/LessonDal.cs" />
+        <option value="$PROJECT_DIR$/RijlesPlanner.Application/Models/Lesson/LessonContainer.cs" />
+        <option value="$PROJECT_DIR$/RijlesPlanner.Presentation/Views/Schedule/Partial/AddLessonPartial.cshtml" />
+        <option value="$PROJECT_DIR$/RijlesPlanner.Presentation/ViewModels/ScheduleViewModels/AddLessonViewModel.cs" />
+        <option value="$PROJECT_DIR$/RijlesPlanner.Presentation/Views/Schedule/Schedule.cshtml" />
+        <option value="$PROJECT_DIR$/RijlesPlanner.Presentation/wwwroot/js/site.js" />
         <option value="$PROJECT_DIR$/RijlesPlanner.Presentation/Controllers/ScheduleController.cs" />
+        <option value="$PROJECT_DIR$/RijlesPlanner.Data.EntityFramework/Class1.cs" />
+        <option value="$PROJECT_DIR$/RijlesPlanner.Interface/Interfaces/DatabaseContext/IApplicationDatabaseContext.cs" />
+        <option value="$PROJECT_DIR$/RijlesPlanner.Data.EntityFramework/Entities/UserEntity.cs" />
+        <option value="$PROJECT_DIR$/RijlesPlanner.Data.EntityFramework/DatabaseContext/ApplicationDatabaseContext.cs" />
+        <option value="$PROJECT_DIR$/RijlesPlanner.Data.EntityFramework/DatabaseContext/DatabaseContextFactory/DesignTimeDbContextFactoryBase.cs" />
+        <option value="$PROJECT_DIR$/RijlesPlanner.Data.EntityFramework/DatabaseContext/DatabaseContextFactory/ApplicatiomDatabasebContextFactory.cs" />
+        <option value="$PROJECT_DIR$/RijlesPlanner.Presentation/Helpers/StartupHelper.cs" />
+        <option value="$PROJECT_DIR$/RijlesPlanner.Presentation/Startup.cs" />
       </list>
     </option>
   </component>
@@ -120,6 +180,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.RijlesPlanner.Presentation">
@@ -178,6 +239,10 @@
       <workItem from="1604592343199" duration="7816000" />
       <workItem from="1604649027507" duration="424000" />
       <workItem from="1604654347570" duration="501000" />
+      <workItem from="1604685953232" duration="814000" />
+      <workItem from="1604908515044" duration="15260000" />
+      <workItem from="1604927762210" duration="1303000" />
+      <workItem from="1604931669105" duration="142000" />
     </task>
     <servers />
   </component>
@@ -210,114 +275,138 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="360" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1604581168201" />
-    <state width="1750" height="279" key="GridCell.Tab.0.bottom" timestamp="1604649451974">
-      <screen x="0" y="23" width="1792" height="1026" />
-    </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1604604555143" />
-    <state width="1750" height="279" key="GridCell.Tab.0.bottom/0.23.1792.1026@0.23.1792.1026" timestamp="1604649451974" />
-    <state width="1750" height="279" key="GridCell.Tab.0.center" timestamp="1604649451973">
-      <screen x="0" y="23" width="1792" height="1026" />
-    </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1604604555142" />
-    <state width="1750" height="279" key="GridCell.Tab.0.center/0.23.1792.1026@0.23.1792.1026" timestamp="1604649451973" />
-    <state width="1750" height="279" key="GridCell.Tab.0.left" timestamp="1604649451973">
-      <screen x="0" y="23" width="1792" height="1026" />
-    </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1604604555142" />
-    <state width="1750" height="279" key="GridCell.Tab.0.left/0.23.1792.1026@0.23.1792.1026" timestamp="1604649451973" />
-    <state width="1750" height="279" key="GridCell.Tab.0.right" timestamp="1604649451973">
-      <screen x="0" y="23" width="1792" height="1026" />
-    </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1604604555143" />
-    <state width="1750" height="279" key="GridCell.Tab.0.right/0.23.1792.1026@0.23.1792.1026" timestamp="1604649451973" />
-    <state width="1750" height="419" key="GridCell.Tab.1.bottom" timestamp="1604605861973">
-      <screen x="0" y="23" width="1792" height="1026" />
-    </state>
-    <state width="1750" height="419" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1604601232504" />
-    <state width="1750" height="419" key="GridCell.Tab.1.bottom/0.23.1792.1026@0.23.1792.1026" timestamp="1604605861973" />
-    <state width="1750" height="419" key="GridCell.Tab.1.center" timestamp="1604605861973">
-      <screen x="0" y="23" width="1792" height="1026" />
-    </state>
-    <state width="1750" height="419" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1604601232503" />
-    <state width="1750" height="419" key="GridCell.Tab.1.center/0.23.1792.1026@0.23.1792.1026" timestamp="1604605861973" />
-    <state width="1750" height="419" key="GridCell.Tab.1.left" timestamp="1604605861972">
-      <screen x="0" y="23" width="1792" height="1026" />
-    </state>
-    <state width="1750" height="419" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1604601232502" />
-    <state width="1750" height="419" key="GridCell.Tab.1.left/0.23.1792.1026@0.23.1792.1026" timestamp="1604605861972" />
-    <state width="1750" height="419" key="GridCell.Tab.1.right" timestamp="1604605861973">
-      <screen x="0" y="23" width="1792" height="1026" />
-    </state>
-    <state width="1750" height="419" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1604601232503" />
-    <state width="1750" height="419" key="GridCell.Tab.1.right/0.23.1792.1026@0.23.1792.1026" timestamp="1604605861973" />
-    <state width="1750" height="419" key="GridCell.Tab.2.bottom" timestamp="1604605861974">
-      <screen x="0" y="23" width="1792" height="1026" />
-    </state>
-    <state width="1750" height="419" key="GridCell.Tab.2.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1604601232505" />
-    <state width="1750" height="419" key="GridCell.Tab.2.bottom/0.23.1792.1026@0.23.1792.1026" timestamp="1604605861974" />
-    <state width="1750" height="419" key="GridCell.Tab.2.center" timestamp="1604605861973">
-      <screen x="0" y="23" width="1792" height="1026" />
-    </state>
-    <state width="1750" height="419" key="GridCell.Tab.2.center/0.0.1792.1120@0.0.1792.1120" timestamp="1604601232504" />
-    <state width="1750" height="419" key="GridCell.Tab.2.center/0.23.1792.1026@0.23.1792.1026" timestamp="1604605861973" />
-    <state width="1750" height="419" key="GridCell.Tab.2.left" timestamp="1604605861973">
-      <screen x="0" y="23" width="1792" height="1026" />
-    </state>
-    <state width="1750" height="419" key="GridCell.Tab.2.left/0.0.1792.1120@0.0.1792.1120" timestamp="1604601232504" />
-    <state width="1750" height="419" key="GridCell.Tab.2.left/0.23.1792.1026@0.23.1792.1026" timestamp="1604605861973" />
-    <state width="1750" height="419" key="GridCell.Tab.2.right" timestamp="1604605861973">
-      <screen x="0" y="23" width="1792" height="1026" />
-    </state>
-    <state width="1750" height="419" key="GridCell.Tab.2.right/0.0.1792.1120@0.0.1792.1120" timestamp="1604601232505" />
-    <state width="1750" height="419" key="GridCell.Tab.2.right/0.23.1792.1026@0.23.1792.1026" timestamp="1604605861973" />
-    <state width="1750" height="419" key="GridCell.Tab.3.bottom" timestamp="1604605861974">
-      <screen x="0" y="23" width="1792" height="1026" />
-    </state>
-    <state width="1750" height="419" key="GridCell.Tab.3.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1604601232508" />
-    <state width="1750" height="419" key="GridCell.Tab.3.bottom/0.23.1792.1026@0.23.1792.1026" timestamp="1604605861974" />
-    <state width="1750" height="419" key="GridCell.Tab.3.center" timestamp="1604605861974">
-      <screen x="0" y="23" width="1792" height="1026" />
-    </state>
-    <state width="1750" height="419" key="GridCell.Tab.3.center/0.0.1792.1120@0.0.1792.1120" timestamp="1604601232507" />
-    <state width="1750" height="419" key="GridCell.Tab.3.center/0.23.1792.1026@0.23.1792.1026" timestamp="1604605861974" />
-    <state width="1750" height="419" key="GridCell.Tab.3.left" timestamp="1604605861974">
-      <screen x="0" y="23" width="1792" height="1026" />
-    </state>
-    <state width="1750" height="419" key="GridCell.Tab.3.left/0.0.1792.1120@0.0.1792.1120" timestamp="1604601232506" />
-    <state width="1750" height="419" key="GridCell.Tab.3.left/0.23.1792.1026@0.23.1792.1026" timestamp="1604605861974" />
-    <state width="1750" height="419" key="GridCell.Tab.3.right" timestamp="1604605861974">
-      <screen x="0" y="23" width="1792" height="1026" />
-    </state>
-    <state width="1750" height="419" key="GridCell.Tab.3.right/0.0.1792.1120@0.0.1792.1120" timestamp="1604601232507" />
-    <state width="1750" height="419" key="GridCell.Tab.3.right/0.23.1792.1026@0.23.1792.1026" timestamp="1604605861974" />
-    <state width="1750" height="419" key="GridCell.Tab.4.bottom" timestamp="1604605861975">
-      <screen x="0" y="23" width="1792" height="1026" />
-    </state>
-    <state width="1750" height="419" key="GridCell.Tab.4.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1604601232509" />
-    <state width="1750" height="419" key="GridCell.Tab.4.bottom/0.23.1792.1026@0.23.1792.1026" timestamp="1604605861975" />
-    <state width="1750" height="419" key="GridCell.Tab.4.center" timestamp="1604605861975">
-      <screen x="0" y="23" width="1792" height="1026" />
-    </state>
-    <state width="1750" height="419" key="GridCell.Tab.4.center/0.0.1792.1120@0.0.1792.1120" timestamp="1604601232508" />
-    <state width="1750" height="419" key="GridCell.Tab.4.center/0.23.1792.1026@0.23.1792.1026" timestamp="1604605861975" />
-    <state width="1750" height="419" key="GridCell.Tab.4.left" timestamp="1604605861974">
-      <screen x="0" y="23" width="1792" height="1026" />
-    </state>
-    <state width="1750" height="419" key="GridCell.Tab.4.left/0.0.1792.1120@0.0.1792.1120" timestamp="1604601232508" />
-    <state width="1750" height="419" key="GridCell.Tab.4.left/0.23.1792.1026@0.23.1792.1026" timestamp="1604605861974" />
-    <state width="1750" height="419" key="GridCell.Tab.4.right" timestamp="1604605861975">
-      <screen x="0" y="23" width="1792" height="1026" />
-    </state>
-    <state width="1750" height="419" key="GridCell.Tab.4.right/0.0.1792.1120@0.0.1792.1120" timestamp="1604601232509" />
-    <state width="1750" height="419" key="GridCell.Tab.4.right/0.23.1792.1026@0.23.1792.1026" timestamp="1604605861975" />
-    <state x="496" y="299" key="Rider.ProjectTemplateDialog.Size" timestamp="1604573108462">
+    <state width="1750" height="317" key="GridCell.Tab.0.bottom" timestamp="1604931811523">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="496" y="299" key="Rider.ProjectTemplateDialog.Size/0.0.1792.1120@0.0.1792.1120" timestamp="1604573108462" />
+    <state width="1750" height="317" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1604931811523" />
+    <state width="1750" height="419" key="GridCell.Tab.0.bottom/0.23.1792.1025@0.23.1792.1025" timestamp="1604927729488" />
+    <state width="1750" height="279" key="GridCell.Tab.0.bottom/0.23.1792.1026@0.23.1792.1026" timestamp="1604649451974" />
+    <state width="1750" height="317" key="GridCell.Tab.0.center" timestamp="1604931811522">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="317" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1604931811522" />
+    <state width="1750" height="419" key="GridCell.Tab.0.center/0.23.1792.1025@0.23.1792.1025" timestamp="1604927729487" />
+    <state width="1750" height="279" key="GridCell.Tab.0.center/0.23.1792.1026@0.23.1792.1026" timestamp="1604649451973" />
+    <state width="1750" height="317" key="GridCell.Tab.0.left" timestamp="1604931811522">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="317" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1604931811522" />
+    <state width="1750" height="419" key="GridCell.Tab.0.left/0.23.1792.1025@0.23.1792.1025" timestamp="1604927729486" />
+    <state width="1750" height="279" key="GridCell.Tab.0.left/0.23.1792.1026@0.23.1792.1026" timestamp="1604649451973" />
+    <state width="1750" height="317" key="GridCell.Tab.0.right" timestamp="1604931811522">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="317" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1604931811522" />
+    <state width="1750" height="419" key="GridCell.Tab.0.right/0.23.1792.1025@0.23.1792.1025" timestamp="1604927729487" />
+    <state width="1750" height="279" key="GridCell.Tab.0.right/0.23.1792.1026@0.23.1792.1026" timestamp="1604649451973" />
+    <state width="1750" height="419" key="GridCell.Tab.1.bottom" timestamp="1604927729489">
+      <screen x="0" y="23" width="1792" height="1025" />
+    </state>
+    <state width="1750" height="419" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1604926430839" />
+    <state width="1750" height="419" key="GridCell.Tab.1.bottom/0.23.1792.1025@0.23.1792.1025" timestamp="1604927729489" />
+    <state width="1750" height="419" key="GridCell.Tab.1.bottom/0.23.1792.1026@0.23.1792.1026" timestamp="1604915835577" />
+    <state width="1750" height="419" key="GridCell.Tab.1.center" timestamp="1604927729489">
+      <screen x="0" y="23" width="1792" height="1025" />
+    </state>
+    <state width="1750" height="419" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1604926430839" />
+    <state width="1750" height="419" key="GridCell.Tab.1.center/0.23.1792.1025@0.23.1792.1025" timestamp="1604927729489" />
+    <state width="1750" height="419" key="GridCell.Tab.1.center/0.23.1792.1026@0.23.1792.1026" timestamp="1604915835577" />
+    <state width="1750" height="419" key="GridCell.Tab.1.left" timestamp="1604927729488">
+      <screen x="0" y="23" width="1792" height="1025" />
+    </state>
+    <state width="1750" height="419" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1604926430838" />
+    <state width="1750" height="419" key="GridCell.Tab.1.left/0.23.1792.1025@0.23.1792.1025" timestamp="1604927729488" />
+    <state width="1750" height="419" key="GridCell.Tab.1.left/0.23.1792.1026@0.23.1792.1026" timestamp="1604915835576" />
+    <state width="1750" height="419" key="GridCell.Tab.1.right" timestamp="1604927729489">
+      <screen x="0" y="23" width="1792" height="1025" />
+    </state>
+    <state width="1750" height="419" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1604926430839" />
+    <state width="1750" height="419" key="GridCell.Tab.1.right/0.23.1792.1025@0.23.1792.1025" timestamp="1604927729489" />
+    <state width="1750" height="419" key="GridCell.Tab.1.right/0.23.1792.1026@0.23.1792.1026" timestamp="1604915835577" />
+    <state width="1750" height="419" key="GridCell.Tab.2.bottom" timestamp="1604927729491">
+      <screen x="0" y="23" width="1792" height="1025" />
+    </state>
+    <state width="1750" height="419" key="GridCell.Tab.2.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1604926430841" />
+    <state width="1750" height="419" key="GridCell.Tab.2.bottom/0.23.1792.1025@0.23.1792.1025" timestamp="1604927729491" />
+    <state width="1750" height="419" key="GridCell.Tab.2.bottom/0.23.1792.1026@0.23.1792.1026" timestamp="1604605861974" />
+    <state width="1750" height="419" key="GridCell.Tab.2.center" timestamp="1604927729490">
+      <screen x="0" y="23" width="1792" height="1025" />
+    </state>
+    <state width="1750" height="419" key="GridCell.Tab.2.center/0.0.1792.1120@0.0.1792.1120" timestamp="1604926430840" />
+    <state width="1750" height="419" key="GridCell.Tab.2.center/0.23.1792.1025@0.23.1792.1025" timestamp="1604927729490" />
+    <state width="1750" height="419" key="GridCell.Tab.2.center/0.23.1792.1026@0.23.1792.1026" timestamp="1604605861973" />
+    <state width="1750" height="419" key="GridCell.Tab.2.left" timestamp="1604927729490">
+      <screen x="0" y="23" width="1792" height="1025" />
+    </state>
+    <state width="1750" height="419" key="GridCell.Tab.2.left/0.0.1792.1120@0.0.1792.1120" timestamp="1604926430840" />
+    <state width="1750" height="419" key="GridCell.Tab.2.left/0.23.1792.1025@0.23.1792.1025" timestamp="1604927729490" />
+    <state width="1750" height="419" key="GridCell.Tab.2.left/0.23.1792.1026@0.23.1792.1026" timestamp="1604605861973" />
+    <state width="1750" height="419" key="GridCell.Tab.2.right" timestamp="1604927729491">
+      <screen x="0" y="23" width="1792" height="1025" />
+    </state>
+    <state width="1750" height="419" key="GridCell.Tab.2.right/0.0.1792.1120@0.0.1792.1120" timestamp="1604926430840" />
+    <state width="1750" height="419" key="GridCell.Tab.2.right/0.23.1792.1025@0.23.1792.1025" timestamp="1604927729491" />
+    <state width="1750" height="419" key="GridCell.Tab.2.right/0.23.1792.1026@0.23.1792.1026" timestamp="1604605861973" />
+    <state width="1750" height="419" key="GridCell.Tab.3.bottom" timestamp="1604927729493">
+      <screen x="0" y="23" width="1792" height="1025" />
+    </state>
+    <state width="1750" height="419" key="GridCell.Tab.3.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1604926430842" />
+    <state width="1750" height="419" key="GridCell.Tab.3.bottom/0.23.1792.1025@0.23.1792.1025" timestamp="1604927729493" />
+    <state width="1750" height="419" key="GridCell.Tab.3.bottom/0.23.1792.1026@0.23.1792.1026" timestamp="1604605861974" />
+    <state width="1750" height="419" key="GridCell.Tab.3.center" timestamp="1604927729492">
+      <screen x="0" y="23" width="1792" height="1025" />
+    </state>
+    <state width="1750" height="419" key="GridCell.Tab.3.center/0.0.1792.1120@0.0.1792.1120" timestamp="1604926430841" />
+    <state width="1750" height="419" key="GridCell.Tab.3.center/0.23.1792.1025@0.23.1792.1025" timestamp="1604927729492" />
+    <state width="1750" height="419" key="GridCell.Tab.3.center/0.23.1792.1026@0.23.1792.1026" timestamp="1604605861974" />
+    <state width="1750" height="419" key="GridCell.Tab.3.left" timestamp="1604927729492">
+      <screen x="0" y="23" width="1792" height="1025" />
+    </state>
+    <state width="1750" height="419" key="GridCell.Tab.3.left/0.0.1792.1120@0.0.1792.1120" timestamp="1604926430841" />
+    <state width="1750" height="419" key="GridCell.Tab.3.left/0.23.1792.1025@0.23.1792.1025" timestamp="1604927729492" />
+    <state width="1750" height="419" key="GridCell.Tab.3.left/0.23.1792.1026@0.23.1792.1026" timestamp="1604605861974" />
+    <state width="1750" height="419" key="GridCell.Tab.3.right" timestamp="1604927729492">
+      <screen x="0" y="23" width="1792" height="1025" />
+    </state>
+    <state width="1750" height="419" key="GridCell.Tab.3.right/0.0.1792.1120@0.0.1792.1120" timestamp="1604926430841" />
+    <state width="1750" height="419" key="GridCell.Tab.3.right/0.23.1792.1025@0.23.1792.1025" timestamp="1604927729492" />
+    <state width="1750" height="419" key="GridCell.Tab.3.right/0.23.1792.1026@0.23.1792.1026" timestamp="1604605861974" />
+    <state width="1750" height="419" key="GridCell.Tab.4.bottom" timestamp="1604927729494">
+      <screen x="0" y="23" width="1792" height="1025" />
+    </state>
+    <state width="1750" height="419" key="GridCell.Tab.4.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1604926430843" />
+    <state width="1750" height="419" key="GridCell.Tab.4.bottom/0.23.1792.1025@0.23.1792.1025" timestamp="1604927729494" />
+    <state width="1750" height="419" key="GridCell.Tab.4.bottom/0.23.1792.1026@0.23.1792.1026" timestamp="1604605861975" />
+    <state width="1750" height="419" key="GridCell.Tab.4.center" timestamp="1604927729494">
+      <screen x="0" y="23" width="1792" height="1025" />
+    </state>
+    <state width="1750" height="419" key="GridCell.Tab.4.center/0.0.1792.1120@0.0.1792.1120" timestamp="1604926430842" />
+    <state width="1750" height="419" key="GridCell.Tab.4.center/0.23.1792.1025@0.23.1792.1025" timestamp="1604927729494" />
+    <state width="1750" height="419" key="GridCell.Tab.4.center/0.23.1792.1026@0.23.1792.1026" timestamp="1604605861975" />
+    <state width="1750" height="419" key="GridCell.Tab.4.left" timestamp="1604927729493">
+      <screen x="0" y="23" width="1792" height="1025" />
+    </state>
+    <state width="1750" height="419" key="GridCell.Tab.4.left/0.0.1792.1120@0.0.1792.1120" timestamp="1604926430842" />
+    <state width="1750" height="419" key="GridCell.Tab.4.left/0.23.1792.1025@0.23.1792.1025" timestamp="1604927729493" />
+    <state width="1750" height="419" key="GridCell.Tab.4.left/0.23.1792.1026@0.23.1792.1026" timestamp="1604605861974" />
+    <state width="1750" height="419" key="GridCell.Tab.4.right" timestamp="1604927729494">
+      <screen x="0" y="23" width="1792" height="1025" />
+    </state>
+    <state width="1750" height="419" key="GridCell.Tab.4.right/0.0.1792.1120@0.0.1792.1120" timestamp="1604926430843" />
+    <state width="1750" height="419" key="GridCell.Tab.4.right/0.23.1792.1025@0.23.1792.1025" timestamp="1604927729494" />
+    <state width="1750" height="419" key="GridCell.Tab.4.right/0.23.1792.1026@0.23.1792.1026" timestamp="1604605861975" />
+    <state x="496" y="299" key="Rider.ProjectTemplateDialog.Size" timestamp="1604927037437">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="496" y="299" key="Rider.ProjectTemplateDialog.Size/0.0.1792.1120@0.0.1792.1120" timestamp="1604927037437" />
     <state x="644" y="244" key="RiderGenerateDialog" timestamp="1604500775468">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state x="644" y="244" key="RiderGenerateDialog/0.23.1792.1026@0.23.1792.1026" timestamp="1604500775468" />
+    <state x="397" y="199" key="SettingsEditor" timestamp="1604911118024">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1604911118024" />
     <state width="896" height="560" key="XDebugger.FullValuePopup" timestamp="1604601114747">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
@@ -326,9 +415,9 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="523" y="192" width="745" height="735" key="find.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1604493564718" />
-    <state x="559" y="249" width="672" height="678" key="search.everywhere.popup" timestamp="1604581857129">
+    <state x="559" y="249" width="672" height="678" key="search.everywhere.popup" timestamp="1604916523062">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="559" y="249" width="672" height="678" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1604581857129" />
+    <state x="559" y="249" width="672" height="678" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1604916523062" />
   </component>
 </project>

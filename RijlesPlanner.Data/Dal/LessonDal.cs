@@ -49,5 +49,27 @@ namespace RijlesPlanner.Data.Dal
                 return 1;
             }
         }
+
+        public LessonDto FindLessonById(string id)
+        {
+            using (SqlConnection connection = new SqlConnection(ConnectionString.GetConnectionString()))
+            {
+                var parameters = new {Id = id};
+                var query = "SELECT * FROM [dbo].[Lessons] WHERE Id = @Id";
+
+                return connection.Query<LessonDto>(query, parameters).FirstOrDefault();
+            }
+        }
+
+        public void DeleteLesson(string id)
+        {
+            using (SqlConnection connection = new SqlConnection(ConnectionString.GetConnectionString()))
+            {
+                var parameters = new {Id = id};
+                var query = "DELETE FROM [dbo].[Lessons] WHERE ID = @Id";
+
+                connection.Query(query, parameters);
+            }
+        }
     }
 }

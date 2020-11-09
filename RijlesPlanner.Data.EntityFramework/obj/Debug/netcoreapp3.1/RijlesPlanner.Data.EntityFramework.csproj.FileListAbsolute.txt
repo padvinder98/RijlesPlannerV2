@@ -1,0 +1,15 @@
+/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Data.EntityFramework/bin/Debug/netcoreapp3.1/RijlesPlanner.Data.EntityFramework.deps.json
+/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Data.EntityFramework/bin/Debug/netcoreapp3.1/RijlesPlanner.Data.EntityFramework.runtimeconfig.json
+/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Data.EntityFramework/bin/Debug/netcoreapp3.1/RijlesPlanner.Data.EntityFramework.runtimeconfig.dev.json
+/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Data.EntityFramework/bin/Debug/netcoreapp3.1/RijlesPlanner.Data.EntityFramework.dll
+/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Data.EntityFramework/bin/Debug/netcoreapp3.1/RijlesPlanner.Data.EntityFramework.pdb
+/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Data.EntityFramework/bin/Debug/netcoreapp3.1/RijlesPlanner.Interface.dll
+/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Data.EntityFramework/bin/Debug/netcoreapp3.1/RijlesPlanner.Interface.pdb
+/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Data.EntityFramework/obj/Debug/netcoreapp3.1/RijlesPlanner.Data.EntityFramework.csprojAssemblyReference.cache
+/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Data.EntityFramework/obj/Debug/netcoreapp3.1/RijlesPlanner.Data.EntityFramework.AssemblyInfoInputs.cache
+/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Data.EntityFramework/obj/Debug/netcoreapp3.1/RijlesPlanner.Data.EntityFramework.AssemblyInfo.cs
+/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Data.EntityFramework/obj/Debug/netcoreapp3.1/RijlesPlanner.Data.EntityFramework.csproj.CoreCompileInputs.cache
+/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Data.EntityFramework/obj/Debug/netcoreapp3.1/RijlesPlanner.Data.EntityFramework.csproj.CopyComplete
+/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Data.EntityFramework/obj/Debug/netcoreapp3.1/RijlesPlanner.Data.EntityFramework.dll
+/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Data.EntityFramework/obj/Debug/netcoreapp3.1/RijlesPlanner.Data.EntityFramework.pdb
+/Users/ryanhouben/Desktop/RijlesPlannerV2/RijlesPlanner.Data.EntityFramework/obj/Debug/netcoreapp3.1/RijlesPlanner.Data.EntityFramework.genruntimeconfig.cache

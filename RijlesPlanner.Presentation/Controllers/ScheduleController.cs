@@ -1,4 +1,6 @@
+using System;
 using System.Collections.Generic;
+using System.Net;
 using Microsoft.AspNetCore.Mvc;
 using RijlesPlanner.Application.Interfaces;
 using RijlesPlanner.Application.Models.Lesson;
@@ -36,18 +38,30 @@ namespace RijlesPlanner.Presentation.Controllers
 
             return Json(data);
         }
-
-        // GET: Schedule/AddLesson
-        [HttpGet]
-        public IActionResult AddLesson()
+        
+        // POST: Schedule/DeleteLesson()
+        [HttpPost]
+        public IActionResult DeleteLesson([FromBody]string id)
         {
-            return View();
+            if (id == null) return Json(new { success = false, responseText= "Er ging iets mis."});
+            
+            var result = _lessonContainer.FindLessonById(id);
+
+            if (result == null)
+            {
+                return Json(new { success = false, responseText= "Er ging iets mis."});
+            }
+                
+            _lessonContainer.DeleteLesson(id);
+
+            return Json(new { success = true, responseText= "De les is verwijderd."});
+
         }
-        
-        
+
+
         // POST: Schedule/AddLesson
         [HttpPost]
-        public IActionResult AddLesson(AddLessonViewModel model)
+        public JsonResult AddLesson(AddLessonViewModel model)
         {
             if (ModelState.IsValid)
             {
@@ -57,10 +71,10 @@ namespace RijlesPlanner.Presentation.Controllers
                 
                 ModelState.Clear();
                 
-                return View();
+                return Json(new { success = true, responseText= "De les is gepland."});
             }
             
-            return View(model);
+            return Json(new { success = false, responseText= "Niet alle velden zijn correct ingevuld."});
         }
     }
 }

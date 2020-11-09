@@ -6,11 +6,22 @@
 
     <ItemGroup>
       <ProjectReference Include="..\RijlesPlanner.Application\RijlesPlanner.Application.csproj" />
+      <ProjectReference Include="..\RijlesPlanner.Data.EntityFramework\RijlesPlanner.Data.EntityFramework.csproj" />
       <ProjectReference Include="..\RijlesPlanner.Data\RijlesPlanner.Data.csproj" />
     </ItemGroup>
 
     <ItemGroup>
       <PackageReference Include="fullcalendar" Version="3.9.0" />
+      <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="5.0.0-rc.2.20475.17" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.0-rc.2.20475.6">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.0-rc.2.20475.6">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+      <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="5.0.0-rc.2.20475.5" />
       <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     </ItemGroup>
 
